@@ -7,6 +7,7 @@ public class ThreadTest implements Runnable {
 	public void run() {
 		int count = 0;
 		System.out.println(count);
+		//run이 몇번쓰였는지 count해서 출력
 		while(true) {
 			System.out.println("진행중...");
 			if(Thread.interrupted()) {
